@@ -1,0 +1,49 @@
+const flag= 10;
+
+// If Else
+if(flag>10)
+{
+    console.log("condition pass");
+}
+else
+{
+    console.log("Condition Failed");
+}
+
+// While Loop when we dont know the exact count to run the loop
+
+let i=0;
+while(i<10)
+{
+    i++
+    console.log(i);
+   
+}
+console.log("while block not excuted");
+console.log("***********************");
+
+console.log(i);
+
+// In  Do While Loop one round of loop will run before it checks the condition
+
+do
+(
+    i++
+    
+)
+while(i<9)
+{   console.log("inside while**********************")
+    console.log(i)
+    console.log("do while loop excuted")
+}
+
+// For Loop used when we no the number of count to excute the loop
+for(k=0; k<=10; k++)
+{
+    console.log(k)
+   
+}
+console.log("For loop Excuted")     
+
+
+
